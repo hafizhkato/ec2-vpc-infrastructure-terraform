@@ -31,14 +31,14 @@ variable "az_a" {
 variable "my_ip" {
   description = "Your public IP for SSH access"
   type        = string
-  default     = "183.171.31.232/32"
+  default     = "Your-Public-Ip/32"
 }
 
 # EC2 AMI ID
 variable "ami_id" {
   description = "AMI for EC2 instance"
   type        = string
-  default     = "ami-0fa377108253bf620" # Amazon Linux 2023 for ap-southeast-1
+  default     = "ami-0fa377108253bf620" 
 }
 
 # Instance type
